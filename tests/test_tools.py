@@ -887,7 +887,7 @@ class TestToolCollection:
             # clean up the process when test is done
             server_process.kill()
             server_process.wait()
-            
+        
     @require_run_all
     def test_integration_from_mcp_with_sse(self):
         import subprocess
